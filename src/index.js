@@ -19,7 +19,7 @@ app.engine(
         extname: '.hbs',
     }),
 );
-app.set('view engine', 'hbs');
+    app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'resource/views'));
 // console.log("PATH: ",path.join(__dirname,'resource/views'));
 const route = require('./routers');
